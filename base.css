@@ -1,0 +1,36 @@
+/* // Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* // Theme variables */
+:root {
+  --bg: #f0f2f5;
+  --text: #ffffff;
+  --surface: #3c5898;
+  --border: #101c35;
+}
+
+/* // Base page */
+body {
+  font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+  line-height: 1.5;
+  color: var(--text);
+  background-color: var(--bg, #f0f2f5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2 {
+  margin-bottom: 0.75rem;
+}

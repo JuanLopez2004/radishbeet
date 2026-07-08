@@ -1,0 +1,30 @@
+/* // Header + footer */
+.site-header,
+.site-footer {
+  padding: 1rem;
+  text-align: center;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  border-bottom: none;
+}
+
+.title-r {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0 0.35rem 0 0;
+  vertical-align: middle;
+}
+
+/* // Main layout */
+.container {
+  width: 100%;
+  max-width: none;
+  margin: 2rem 0;
+  padding: 0 1.25rem;
+  display: block;
+}

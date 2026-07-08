@@ -1,0 +1,15 @@
+/* // Responsive */
+@media (max-width: 760px) {
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .navbar ul {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .navbar li {
+    flex: 0 0 auto;
+  }
+}
